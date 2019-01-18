@@ -9,8 +9,8 @@ This extension adds left and right borders of custom width on the current websit
 Open addon popup by clicking on its icon.  Click "+" or scroll up with mouse within popup area or:
 
 hotkeys:
-F7: thinner borders
-F8: wider borders
-F9: on/off 
+*F7: thinner borders
+*F8: wider borders
+*F9: on/off 
 
 Settings for each website are saved in local storage.
