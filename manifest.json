@@ -1,0 +1,55 @@
+{
+  "description": "Turn off side empty white areas on websites for more comfort",
+  "manifest_version": 2,
+  "name": "Black Sides",
+  "version": "1.0",
+  "homepage_url": "https://github.com/kjaku/blacksides",
+  "icons": {
+    "48": "icons/blacksides-48.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "blackSides@example.com"
+    }
+  },
+
+  "permissions": ["activeTab", "storage", "tabs", "<all_urls>"],
+
+  "commands": {
+    "toggle": {
+      "suggested_key": {
+        "default": "F9"
+      },
+      "description": "toggle black stripes addon on active tab site"
+    },
+    "wider": {
+      "suggested_key": {
+        "default": "F8"
+      },
+      "description": "wider black stripes "
+    },
+    "narrower": {
+      "suggested_key": {
+        "default": "F7"
+      },
+      "description": "thinner black stripes"
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "icons/blacksides-32.png",
+    "theme_icons": [
+      {
+        "light": "icons/blacksides-32-light.png",
+        "dark": "icons/blacksides-32.png",
+        "size": 32
+      }
+    ],
+    "default_title": "Black Sides",
+    "default_popup": "popup/popup.html"
+  },
+
+  "background": {
+    "scripts": ["back.js"]
+  }
+}

@@ -1,0 +1,29 @@
+html,
+body {
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  width: 100%;
+  margin: auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #fbfbc9;
+}
+
+.button:hover {
+  background-color: #dbd9d9;
+}
+
+.inline {
+  display: flex;
+}
