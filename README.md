@@ -1,5 +1,5 @@
 # black sides browser extention#
-[Before and after effect](docs/before.png)
+![before](https://user-images.githubusercontent.com/2963121/51372895-f8d16a80-1afe-11e9-8881-c1c657de4547.jpg)
 
 It's meant to be used especially for one column websites, where there is too much white space on both sides of the window. I find it more comfortable when these areas are "switched off".
 
